@@ -1,4 +1,4 @@
-package academy.devdojo.maratona.introducao.classes;
+package academy.devdojo.maratona.javacore.classes;
 
 public class FuncionarioTest {
     public static void main(String[] args) {

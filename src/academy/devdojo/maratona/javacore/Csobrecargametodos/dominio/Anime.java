@@ -1,4 +1,4 @@
-package academy.devdojo.maratona.introducao.Csobrecargametodos.dominio;
+package academy.devdojo.maratona.javacore.Csobrecargametodos.dominio;
 
 public class Anime {
     private String nome;
@@ -6,10 +6,14 @@ public class Anime {
     private int episodios;
     private String genero;
 
-    public void init(String nome, String tipo, int episodios,  String genero) {
+    public void init(String nome, String tipo, int episodios) {
         this.nome = nome;
         this.tipo = tipo;
         this.episodios = episodios;
+    }
+
+    public void init(String nome, String tipo, int episodios,  String genero) {
+        this.init(nome, tipo, episodios);
         this.genero = genero;
     }
 

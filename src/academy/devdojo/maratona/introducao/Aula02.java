@@ -1,6 +1,6 @@
 package academy.devdojo.maratona.introducao;
 
-import academy.devdojo.maratona.introducao.classes.Pessoa;
+import academy.devdojo.maratona.javacore.classes.Pessoa;
 
 public class Aula02 {
     public static void main(String[] args) {
