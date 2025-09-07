@@ -1,0 +1,5 @@
+br\edu\unicesumar\bookstore\BookstoreApplication.class
+br\edu\unicesumar\bookstore\entities\Book.class
+br\edu\unicesumar\bookstore\services\BookService.class
+br\edu\unicesumar\bookstore\controllers\BookController.class
+br\edu\unicesumar\bookstore\repositories\BookRepository.class
