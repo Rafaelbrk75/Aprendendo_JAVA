@@ -3,14 +3,13 @@ package ex04;
 public class Main {
     public static void main(String[] args) {
         Autor jose = new Autor("Brasileiro", "Jose");
-        Livro livro1 = new Livro("João é o pé de feijão", jose);
 
-        Livro livros[];
-        livros = new Livro[3];
+        Livro livro1 = new Livro("João e o pé de feijão", jose);
+        Livro livro2 = new Livro("História do Brasil", jose);
 
-        jose = new Autor("Brasileiro", "Jose", livros);
+        jose.adicionarLivro(livro1);
+        jose.adicionarLivro(livro2);
 
-        System.out.println("Eu quero que o meu video fique legal");
-        System.out.println("Mas eu não sei como fazer  isso  hahshsassss");
+        jose.exibirAutor();
     }
 }
